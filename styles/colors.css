@@ -1,0 +1,78 @@
+@media (max-width: 800px) {
+  * {
+    background-color: lightblue;
+	color: black;
+  }
+
+}
+@media (min-width: 801px) and (max-width: 1199px){
+  * {
+	background-color: darkgreen;
+	color:lightgray;
+  } 
+
+	
+}
+@media (min-width: 1200px) {
+  * {
+	background-color: black;
+	color:lightgray;
+  } 
+
+}
+
+  a:link { 
+	color:pink;
+  }
+  a:visited { 
+	color:purple;
+  }
+  a:hover { 
+	color:lightgreen;
+  }
+  a:active { 
+	color:yellow;
+  }
+.flex-container > div:first-of-type {
+	background-color:red;
+	color:black;
+}
+.flex-container > div:first-of-type img{
+	background-color:red;
+	
+}
+.flex-container > div:first-of-type a{
+	background-color:red;
+	
+}
+.flex-container > div:first-of-type + div {
+	background-color:orange;
+	color:black;
+}
+.flex-container > div:first-of-type + div a{
+	background-color:orange;
+}
+.flex-container > div:first-of-type + div img{
+	background-color:orange;
+}
+#mudlet {
+	background-color:yellow;
+	color:black;
+}
+#mudlet a {
+	background-color:yellow;
+}
+#mudlet img{
+	background-color: yellow;
+}
+.one > *{
+	color:olive;
+}
+
+.one ~ div > *{
+	color:teal;
+}
+
+.three ~ div > * {
+	color:SaddleBrown;
+}
